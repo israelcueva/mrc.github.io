@@ -489,6 +489,9 @@ header {
     box-shadow: 0px 9px 32px 0px rgba(0, 0, 0, 0.07);
 }
 
+.modal-dialog {
+    max-width: 100% !important;
+
 
 /*  IMAGE GALLERY
 ----------------------*/
