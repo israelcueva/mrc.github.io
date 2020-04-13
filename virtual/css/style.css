@@ -415,14 +415,14 @@ header {
     padding: 1rem 1rem;
     border-color: #faf6fb #faf6fb #FFF;
     font-size: 19px;
-    color: #b5a4c8;
-    background: #f5eff7;
+    color: #c8a4a4;
+    background: #f7efef;
 }
 
 .nav-tabs .nav-link.active {
     background: #FFF;
     border-top-width: 3px;
-    border-color: #ce75b4 #faf6fb #FFF;
+    border-color: #ff0000 #faf6fb #FFF;
     color: #ff0000;
 }
 
@@ -506,6 +506,10 @@ header {
     transform: scale(1);
 }
 
+
+.li-no-border{
+    border-bottom: none !important;
+}
 
 /*  PRICING
 ----------------------*/
