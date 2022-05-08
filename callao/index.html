@@ -8,6 +8,8 @@
     <link rel="stylesheet" href="res/css/video.css" />
     <link rel="shortcut icon" href="res/images/favicon.png" type="image/png">
 
+    <link href="https://vjs.zencdn.net/7.18.1/video-js.css" rel="stylesheet" />
+
     <!-- If you'd like to support IE8 (for Video.js versions prior to v7) -->
     <!-- <script src="https://vjs.zencdn.net/ie8/1.1.2/videojs-ie8.min.js"></script> -->
     <title>XXVII Aniversario - María Reina de Corazones</title>
@@ -24,12 +26,26 @@
       <p class="left">Atentamente</p>
       <p class="left">La Dirección</p>
 
-      
-      <div class="video"">
-
-        <iframe src="https://iframe.dacast.com/vod/fc1a5cbb-4ef3-6445-861e-86a976cae842/e9444d5d-e6b4-0772-5fc8-c5b618a10fed" width="640px" height="264px" frameborder="0" scrolling="no" allow="autoplay" allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
-
-      </div>
+      <video
+        id="my-video"
+        class="video-js"
+        controls
+        preload="auto"
+        width="740"
+        height="480"
+        poster="res/images/MRC.jpg"
+        data-setup="{}"
+      >
+        <source src="https://mrc-israel.sfo3.digitaloceanspaces.com/ACTUACION%20DIA%20DE%20LA%20MADRE_1.mp4" type="video/mp4" />
+        <source src="MY_VIDEO.webm" type="video/webm" />
+        <p class="vjs-no-js">
+          To view this video please enable JavaScript, and consider upgrading to a
+          web browser that
+          <a href="https://videojs.com/html5-video-support/" target="_blank"
+            >supports HTML5 video</a
+          >
+        </p>
+      </video>
       
     </section>
 
